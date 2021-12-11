@@ -12,6 +12,32 @@ body{
 .clearfix{
   clear: both;
 }
+.section-subtitle{
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #797979;
+  text-transform: uppercase;
+}
+.buttom{
+  border: none;
+  background-color: #1c44e4;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 20px 40px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.blur-line {
+  display: inline-block;
+  margin-left: 5px;
+  width: 80px;
+  height: 4px;
+  background-color: rgba(237,35,159,.6);
+  filter: blur(4px);
+  border-radius: 5px;
+}
 
 /* Main haeder styles */
 .main-header__brand{
@@ -86,14 +112,6 @@ body{
 }
 .main-section__action{
   margin-top: 30px;
-  border: none;
-  background-color: #1c44e4;
-  color: #fff;
-  font-weight: 500;
-  font-size: 14px;
-  padding: 20px 40px;
-  cursor: pointer;
-  border-radius: 5px;
 }
 
 /* Statistics section */
@@ -118,4 +136,34 @@ body{
   font-size: 16px;
   color: #797979;
   font-weight: 300;
+}
+
+/* About me  section*/
+.about-me{
+  padding: 100px 0;
+}
+.about-me > div {
+  width: 50%;
+  float: left;
+}
+.about-me__img img{
+  width: 90%;
+  border-radius: 100%;
+}
+.section-title {
+  margin-top: 5px;
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #05364d;
+}
+.about-me__desription {
+  font-size: 14px;
+  font-weight: 300;
+  color: #797979;
+  line-height: 27px;
+}
+
+.about-me__action {
+  margin-top: 40px;
 }
