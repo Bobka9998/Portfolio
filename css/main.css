@@ -40,6 +40,12 @@ body{
 }
 
 /* Main haeder styles */
+.main-header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #fff;
+}
 .main-header__brand{
   display: inline-block;
   vertical-align: middle;
