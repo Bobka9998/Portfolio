@@ -11,8 +11,8 @@
 <body>
   <!--Header section-->
 
-   <div class="container">
-    <header class="main-header">
+   <header class="main-header">
+    <div class="container">
       <div class="main-header__brand">
         <a href="index.html">
           <img src="Image/logo.png" alt="logo">
@@ -43,39 +43,41 @@
           </li>
         </ul>
       </nav>
-    </header>
-   </div>
+    </div>
+   </header>
  
   <!-- /Header section-->
 
   <!-- Main section open-->
   <main class="box-main">
     <!--Asosiy qism-->
-    <div class="container">
-      <section id="main-section" class="main-section">
-        <div class="main-section__info">
-          <h4 class="main-section__welcome to-uppercase">Salom hammaga!</h4>
-          <h1 class="main-section__introduction to-uppercase">I am Sultanov</h1>
-          <h5 class="main-section__position to-uppercase">junior (kichik) dasturchi.</h5>
-          <div class="main-section__social-networks">
-            <a href="https://t.me/sultanovboburbek" target="_blank">
-              <i class="fab fa-telegram"></i>
-            </a>
-            <a href="https://www.instagram.com/sultanovboburbek" target="_blank">
-              <i class="fab fa-instagram"></i>
-            </a>
-            <a href="https://www.facebook.com/boburbek.sultanov.94" target="_">
-              <i class="fab fa-facebook-square"></i>
-            </a>
+    <div class="main-banner">
+      <div class="container">
+        <section id="main-section" class="main-section">
+          <div class="main-section__info">
+            <h4 class="main-section__welcome to-uppercase">Salom hammaga!</h4>
+            <h1 class="main-section__introduction to-uppercase">I am Sultanov</h1>
+            <h5 class="main-section__position to-uppercase">junior (kichik) dasturchi.</h5>
+            <div class="main-section__social-networks">
+              <a href="https://t.me/sultanovboburbek" target="_blank">
+                <i class="fab fa-telegram"></i>
+              </a>
+              <a href="https://www.instagram.com/sultanovboburbek" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://www.facebook.com/boburbek.sultanov.94" target="_">
+                <i class="fab fa-facebook-square"></i>
+              </a>
+            </div>
+            <button type="button" class="main-section__action to-uppercase buttom">
+              Ishlarimni ko`ring
+            </button>
           </div>
-          <button type="button" class="main-section__action to-uppercase buttom">
-            Ishlarimni ko`ring
-          </button>
-        </div>
-        <div class="main-section__imge">
-          <img src="Image/me.png" alt="me">
-        </div>
-      </section>
+          <div class="main-section__imge">
+            <img src="Image/me.png" alt="me">
+          </div>
+        </section>
+      </div>
     </div>
 
     <div class="clearfix"></div>
@@ -234,10 +236,66 @@
     <div class="clearfix"></div>
 
     <!-- Portfolio section-->
-    <section id="portfolio">
-      <h1>Portfolio</h1>
+   <div class="container">
+    <section id="portfolio" class="portfolio">
+      <div class="section-subtitle">
+        Mening ishlarim.
+        <span class="blur-line"></span>
+      </div>
+      <div class="section-title">
+        Mening oxrigi <br>
+        ishlarimni ko`ring.
+      </div>
+      <ul class="portfolio-filters">
+        <li class="active">Hammasi</li>
+        <li>Mashxurlar</li>
+        <li>Oxirgilari</li>
+      </ul>
+      <div class="portfolio-items">
+        <div class="portfolio-item">
+          <img src="Image/portfolio-1.jpg" alt="portfilo-image 1" class="portfolio-item__image">
+          <div class="portfolio-item__overlay"></div>
+          <div class="portfolio-item__info">
+            <h4>
+              <a href="#">Portfolio item 1</a>
+            </h4>
+            <p>
+              Ishim haqida
+            </p>
+          </div>
+        </div>
+        <div class="portfolio-item portfolio-item-2">
+          <img src="Image/portfolio-2.jpg" alt="portfilo-image 1" class="portfolio-item__image">
+          <div class="portfolio-item__overlay"></div>
+          <div class="portfolio-item__info">
+            <h4>
+              <a href="#">Portfolio item 1</a>
+            </h4>
+            <p>
+              Ishim haqida
+            </p>
+          </div>
+        </div>
+        <div class="portfolio-item portfolio-item-3">
+          <img src="Image/portfolio-3.jpg" alt="portfilo-image 1" class="portfolio-item__image">
+          <div class="portfolio-item__overlay"></div>
+          <div class="portfolio-item__info">
+            <h4>
+              <a href="#">Portfolio item 1</a>
+            </h4>
+            <p>
+              Ishim haqida
+            </p>
+          </div>
+        </div>
+        
+        
+      </div>
     </section>
+   </div>
     <!-- /Portfolio section-->
+
+    <div class="clearfix"></div>
 
     <!-- Blog section -->
     <section id="blog">
